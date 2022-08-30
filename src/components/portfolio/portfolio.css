@@ -31,9 +31,14 @@
     margin-bottom: 0.5rem;
 }
 
+.portfolio__description {
+    margin: auto 0.5rem 0rem 0rem;
+    text-align: justify;
+}
+
 .portfolio__techstack {
     font-size: 0.8rem;
-    margin-top: 0.5rem;
+    margin: 0.8rem auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -48,9 +53,8 @@
 }
 
 .portfolio__item-cta {
-    display: flex;
     gap: 1rem;
-    margin: 1rem 0;
+    margin: 1rem 1rem .5rem 0;
 }
 
 .hidden {

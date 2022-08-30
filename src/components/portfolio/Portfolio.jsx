@@ -2,7 +2,12 @@ import React from 'react'
 import './portfolio.css'
 import {
   data
-} from '../../portfolio-data.js'
+} from '../../assets/portfolio-data.js'
+
+import Hypher from 'hypher'
+import english from 'hyphenation.en-us'
+const h = new Hypher(english)
+
 
 function Portfolio() {
   return (
@@ -18,13 +23,16 @@ function Portfolio() {
              
                 <h3>{name}</h3>
                 <p className='portfolio__customername'><i>{customer}</i></p>
-                <p>{description}</p>
-                <div className='portfolio__techstack'>
+
                 
-                {techstack.map(tech => {
-                  return (<div className='portfolio__technology'>{tech}</div>)                  
-                })}           
-                 </div>
+                <div className='portfolio__techstack'>                
+                  {techstack.map(tech => {
+                    return (<div className='portfolio__technology'>{tech}</div>)                  
+                  })}           
+                </div>
+
+                <p className='portfolio__description'>{h.hyphenateText(description)}</p>
+
                 
                 <div className="portfolio__item-cta">
                   <a href={link} className={link ? 'btn' : 'hidden'} target='_blank'>visit</a>
