@@ -36,24 +36,27 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className='contact__option'>
+          <a href="mailto:contact.haeller@gmail.com">
+            <article className='contact__option'>
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>contact.haeller<br/>@gmail.com</h5>
-            <a href="mailto:contact.haeller@gmail.com">Send a message</a>
-          </article>
-          <article className='contact__option'>
+            <p>Send a message</p>
+          </article></a>
+          <a href="https://www.linkedin.com/in/lucien-haeller/" target="_blank">
+            <article className='contact__option'>
             <FaLinkedin className='contact__option-icon'/>
             <h4>linkedIn</h4>
             <h5>lucien-haeller</h5>
-            <a href="https://www.linkedin.com/in/lucien-haeller/" target="_blank">Let's connect</a>
-          </article>
+            <p>Let's connect</p>
+          </article></a>
+          <a href="https://twitter.com/diveordelve" target="_blank">
           <article className='contact__option'>
             <RiTwitterFill className='contact__option-icon'/>
             <h4>Twitter</h4>
             <h5>diveordelve</h5>
-            <a href="https://twitter.com/diveordelve" target="_blank">DM's open</a>
-          </article>
+            <p>DM's open</p>
+          </article></a>
 
         </div>
         {/* END OF CONTACT OPTIONS */}
