@@ -1,0 +1,77 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 0 0;
+}
+
+.portfolio__customername {
+    color: var(--color-primary-variant);
+    margin-bottom: 0.5rem;
+}
+
+.portfolio__techstack {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.portfolio__technology {
+    background: var(--color-light);
+    color: var(--color-bg-variant);
+    border-radius: 0.25rem;
+    padding: 0 0.4rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/** ===== MEDIA QUERIES (Medium Devices) ===== **/
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+}
+
+/** ===== MEDIA QUERIES (Small Devices) ===== **/
+@media screen and (max-width: 600px) {
+
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+}
