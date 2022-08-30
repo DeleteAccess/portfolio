@@ -32,11 +32,11 @@ const About = () => {
             </article>
           </div>
 
-          <p>I want humanity to overcome the <a href="https://en.wikipedia.org/wiki/Great_Filter" target='_blank'>Great Filter</a>. 
-          To ensure the prolonged existence of humankind I count on missions for sustainable life on planet Earth, space 
-          exploration (let’s start with the Moon, Mars, Jupiter’s Europa and Venus) and even transhumanistic objectives.</p>
-          <p>I’m very curious by nature and like to collaborate with good team players. I’m well-organized and spontaneous.
-          I can easily adapt to new circumstances.</p>
+          <p>I want hu&#xAD;man&#xAD;ity to over&#xAD;come the <a href="https://en.wikipedia.org/wiki/Great_Filter" target='_blank'>Great Filter</a>. 
+          To ensure the pro&#xAD;longed existence of human&#xAD;kind I count on missions for sus&#xAD;tain&#xAD;a&#xAD;ble life on planet Earth, space 
+          ex&#xAD;plo&#xAD;ra&#xAD;tion (let’s start with the Moon, Mars, Jupiter’s Eu&#xAD;ro&#xAD;pa and Ve&#xAD;nus) and e&#xAD;ven trans&#xAD;human&#xAD;istic objec&#xAD;tives.</p>
+          <p>I’m very cu&#xAD;ri&#xAD;ous by na&#xAD;ture and like to col&#xAD;lab&#xAD;o&#xAD;rate with good team play&#xAD;ers. I’m well-or&#xAD;gan&#xAD;ized and spon&#xAD;ta&#xAD;ne&#xAD;ous.
+          I can eas&#xAD;i&#xAD;ly a&#xAD;dapt to new cir&#xAD;cum&#xAD;stanc&#xAD;es.</p>
           
           <article className='about__card'>
           <div className='about__content-sparetime'>

@@ -37,7 +37,7 @@
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
-    text-align: center;
+    text-align: center; 
     transition: var(--transition);
 }
 
@@ -71,6 +71,8 @@
 .about__content p {
     color: var(--color-light);
     margin: 2rem auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .about__content-sparetime {
