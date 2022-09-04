@@ -41,9 +41,9 @@ const About = () => {
           <article className='about__card'>
           <div className='about__content-sparetime'>
           <h4>spare time activities</h4>
-          &#62; I read a lot<br/>
-          &#62; play CTF <i>new!</i><br/>
-          &#62; learn about computer systems
+          &#62; I read a lot <br/>
+          &#62; play CTF and other games <br/>
+          &#62; learn about computers and networks
           </div>
           </article>
     
