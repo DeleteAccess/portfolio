@@ -50,13 +50,6 @@ const Contact = () => {
             <h5>lucien-haeller</h5>
             <p>Let's connect</p>
           </article></a>
-          <a href="https://twitter.com/diveordelve" target="_blank">
-          <article className='contact__option'>
-            <RiTwitterFill className='contact__option-icon'/>
-            <h4>Twitter</h4>
-            <h5>diveordelve</h5>
-            <p>DM's open</p>
-          </article></a>
 
         </div>
         {/* END OF CONTACT OPTIONS */}
